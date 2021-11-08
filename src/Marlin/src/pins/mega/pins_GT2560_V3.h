@@ -129,7 +129,7 @@
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN                            11  // Analog Input
+#define TEMP_0_PIN                             7  // Analog Input
 #define TEMP_1_PIN                             9  // Analog Input
 #define TEMP_2_PIN                             8  // Analog Input
 #define TEMP_BED_PIN                          10  // Analog Input
