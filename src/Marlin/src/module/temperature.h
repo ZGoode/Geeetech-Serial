@@ -166,7 +166,7 @@ enum ADCSensorState : char {
 // Minimum number of Temperature::ISR loops between sensor readings.
 // Multiplied by 16 (OVERSAMPLENR) to obtain the total time to
 // get all oversampled sensor readings
-#define MIN_ADC_ISR_LOOPS 10
+#define MIN_ADC_ISR_LOOPS 25
 
 #define ACTUAL_ADC_SAMPLES _MAX(int(MIN_ADC_ISR_LOOPS), int(SensorsReady))
 
